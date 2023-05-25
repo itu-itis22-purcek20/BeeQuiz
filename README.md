@@ -25,7 +25,7 @@ pip install matplotlib
 
 ## Usage
 
-To run the Python Quiz Game, use the command prompt or terminal to navigate to the folder containing the Python script and then run:
+To run the BeeQuiz, use the command prompt or terminal to navigate to the folder containing the Python script and then run:
 ```
 python3 main.py
 ```
