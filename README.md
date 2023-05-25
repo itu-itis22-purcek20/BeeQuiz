@@ -68,7 +68,7 @@ While the current version of the BeeQuiz is fully functional, there are several 
 - A graphical user interface (GUI) using a library like tkinter or PyQt
 - The option for users to add their own questions
 - Multiplayer mode where users can compete against each other in real time
-- 
+
 ## License
 
 This project is licensed under the terms of the MIT license.
