@@ -4,11 +4,22 @@ This is a simple text-based Python quiz game. It allows users to answer question
 
 ## Table of Contents
 
+- [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Data Storage](#data-storage)
 - [Future Improvements](#future-improvements)
 - [License](#license)
+
+## Features
+- Different categories of quiz topics
+- Multiple difficulty levels
+- Time constraint for each question
+- Persistent user data across different sessions
+- User statistics, showing total games played, highest and average scores, and total questions answered correctly
+- A leaderboard showing the highest scores across all users
+- Charts displaying top scores and total questions answered by users
+- Calculation of time spent on each question
 
 ## Getting Started
 
