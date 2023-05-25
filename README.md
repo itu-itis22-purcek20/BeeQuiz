@@ -4,10 +4,10 @@ This is a simple text-based Python quiz game. It allows users to answer question
 
 ## Table of Contents
 
-- [Getting Started](#gettinstarted)
+- [Getting Started](#gettin-started)
 - [Usage](#usage)
-- [Data Storage](#datastorage)
-- [Future Improvements](#futureimprovements)
+- [Data Storage](#data-storage)
+- [Future Improvements](#future-improvements)
 - [License](#license)
 
 ## Getting Started
