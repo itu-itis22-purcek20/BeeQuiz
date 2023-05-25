@@ -4,7 +4,7 @@ This is a simple text-based Python quiz game. It allows users to answer question
 
 ## Table of Contents
 
-- [Getting Started](#gettin-started)
+- [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Data Storage](#data-storage)
 - [Future Improvements](#future-improvements)
