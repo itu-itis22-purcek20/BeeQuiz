@@ -4,48 +4,60 @@ This is a simple text-based Python quiz game. It allows users to answer question
 
 ## Table of Contents
 
-- [Requirements](#requirements)
-- [Installation](#installation)
+- [Getting Started](#gettinstarted)
 - [Usage](#usage)
-- [Features](#features)
+- [Data Storage](#datastorage)
+- [Future Improvements](#futureimprovements)
 - [License](#license)
 
-## Requirements
+## Getting Started
 
-* Python 3.7 or later
-* matplotlib library for Python
+### Requirements
 
-## Installation
-
-1. Clone this repository or download the Python script file.
-2. Install the required Python libraries using pip:
+To run this program, you need Python 3.5 or later. The only third-party library used is `matplotlib`, which can be installed using pip:
 ```
 pip install matplotlib
 ```
+### Running the Program
 
+1. Clone this repository or download the script.
+2. Run the script using Python:
+```
+python bee_quiz.py
+```
 ## Usage
 
-To run the BeeQuiz, use the command prompt or terminal to navigate to the folder containing the Python script and then run:
-```
-python3 main.py
-```
+The program is an interactive console application.
 
-## Features
+When you start the program, you will be asked for your username. If you are a new user, you will be welcomed and directed to the main menu. If you are a returning user, the program will greet you with your username and take you to the main menu.
 
-* The game contains different categories and difficulty levels of questions for the quiz.
-* Each user's scores are stored and displayed in a leaderboard.
-* Statistics such as total games played, highest score, average score, and total number of correctly answered questions are displayed for each user.
-* A chart showing users' scores or the number of questions answered can be displayed.
-* The game also records the time spent by the user on each question.
+The main menu provides four options:
 
-## How to Play
+1. **Start Quiz:** You can choose a category and difficulty level, and then you will be presented with a set of questions. You will have to enter the option number of the correct answer within a certain time limit.
 
-1. Enter your username to start or continue the game.
-2. From the Main Menu, you can choose to start the quiz, show statistics, show charts, or exit the game.
-3. If you choose to start the quiz, you will be asked to choose a category and a difficulty level. The quiz will then begin.
-4. If you choose to show statistics, you can view your personal statistics, the leaderboard, or the time spent on each question.
-5. If you choose to show charts, you can display a chart showing users' scores or the number of questions answered.
+2. **Show Stats:** You can view your own statistics (total games played, highest score, average score, and total number of correctly answered questions), the leaderboard, or the time you spent on each question.
 
+3. **Show Chart:** You can view a bar chart representing the top scores or the total questions answered by all users.
+
+4. **Exit:** This option allows you to exit the program.
+
+
+## Data Storage
+
+User data is stored in a file named 'user_data.pickle' using Python's pickle module. This data includes the username, scores, answers given, time spent on each question, number of correct answers, and number of incorrect answers.
+
+The data is saved in a dictionary format where the key is the username and the value is a list of games played by the user. Each game is represented as a dictionary storing the details of the game.
+
+## Future Improvements
+
+While the current version of the BeeQuiz is fully functional, there are several potential improvements that could be made:
+
+- Additional question categories and difficulty levels
+- A more advanced scoring system that takes into account the difficulty level and answer time
+- A graphical user interface (GUI) using a library like tkinter or PyQt
+- The option for users to add their own questions
+- Multiplayer mode where users can compete against each other in real time
+- 
 ## License
 
 This project is licensed under the terms of the MIT license.
